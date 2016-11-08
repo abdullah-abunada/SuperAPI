@@ -22,7 +22,7 @@ public class OperationsTest {
     @Test
     public void shouldSumGivenNumbers() {
         Response addResponse = operations.add(new Input(1, 2, 3));
-        Truth.assertThat(addResponse.getEntity()).isEqualTo(6);
+        Truth.assertThat(addResponse.getEntity()).isEqualTo(61);
     }
 
     @Test
