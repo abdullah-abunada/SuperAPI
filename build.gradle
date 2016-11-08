@@ -26,7 +26,7 @@ ext {
     LOCAL_CONFIG_FILE = "$CONFIG_DIR/local_config.yml"
     LOCAL_APP_BIN_PATH = "$project.buildDir/libs/$APP_BIN_NAME"
     MAIN_CLASS = "Main"
-    PROD_IP = "138.68.72.171"
+    PROD_IP = "139.59.149.116"
     PROD_USER = "root"
     PROD_KEY_PATH = project.hasProperty("identity") ? project.property("identity") : ""
     APP_IDENTIFIER = project.hasProperty("app_id") ? project.property("app_id") : ""
